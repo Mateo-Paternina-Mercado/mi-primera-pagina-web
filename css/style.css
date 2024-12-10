@@ -6,3 +6,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.row_1{
+    width: 539px;
+    height: 582px;
+    background: red;
+    position: absolute;
+    top: 115px;
+    left: 100px;
+}
+
+.row_2{
+    width: 539px;
+    height: 720px;
+    background: blue;
+    position: absolute;
+    top: 60px;
+    right: 550px;
+}
+
+.row_3{
+    width: 1112px;
+    height: 100px;
+    background: orange;
+    position: absolute;
+    bottom: 172px;  
+    left: 100px; 
+}
