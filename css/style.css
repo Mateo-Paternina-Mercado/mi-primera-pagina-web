@@ -6,16 +6,37 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--color-4);
+}
 
 .row_1{
     width: 539px;
     height: 582px;
-    background: red;
+    /* background: red; */
     position: absolute;
-    top: 115px;
+    top: 80px;
     left: 100px;
 }
-
+.row_1 div{
+    width: 110%;
+    margin-top: 20px;
+    /* background: green; */
+}
+.row_1 div img{
+    width: 100px;
+    position: relative;
+    margin-left: -32px;
+    left: 30px;
+}
+.row_1 h1{
+    font-family: "Montserrat-ExtraBold";
+    font-size: 64px;
+    color: var(--color-2);
+}
+.row_1 span{
+    color: var(--color-3);
+}
 .row_2{
     width: 539px;
     height: 720px;
@@ -23,6 +44,14 @@
     position: absolute;
     top: 60px;
     right: 550px;
+}
+
+.row_2 img{
+    width: 800px;
+    height: 720px;
+    position: relative;
+    top: 0px;
+    right: 5px;
 }
 
 .row_3{
