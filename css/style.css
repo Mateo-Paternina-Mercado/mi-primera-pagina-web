@@ -26,6 +26,7 @@ body{
 .row_1 div img{
     width: 100px;
     position: relative;
+    top: 10px;
     margin-left: -32px;
     left: 30px;
 }
@@ -37,10 +38,30 @@ body{
 .row_1 span{
     color: var(--color-3);
 }
+.row_1 h2{
+    font-family: "Montserrat-Regular";
+    font-size: 24px;
+    color: var(--color-2);
+    position: absolute;
+    top: 380px;
+}
+.row_1 button{
+    width: 300px;
+    height: 70px;
+    color: var(--color-2);
+    font-family: "Montserrat-Medium";
+    font-size: 22px;
+    border-radius: 50px;
+    border: none;
+    overflow: none;
+    background-color: var(--color-3);
+    position: absolute;
+    top: 500px;
+}
 .row_2{
     width: 539px;
     height: 720px;
-    background: blue;
+    /* background: blue; */
     position: absolute;
     top: 60px;
     right: 550px;
@@ -51,7 +72,7 @@ body{
     height: 720px;
     position: relative;
     top: 0px;
-    right: 5px;
+    left: -60px;
 }
 
 .row_3{
