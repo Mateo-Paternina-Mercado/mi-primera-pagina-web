@@ -15,8 +15,8 @@ body{
     height: 582px;
     /* background: red; */
     position: absolute;
-    top: 80px;
-    left: 100px;
+    top: 200px;
+    left: 400px;
 }
 .row_1 div{
     width: 110%;
@@ -63,7 +63,7 @@ body{
     height: 720px;
     /* background: blue; */
     position: absolute;
-    top: 60px;
+    top: 200px;
     right: 550px;
 }
 
@@ -72,7 +72,7 @@ body{
     height: 780px;
     position: relative;
     top: -50px;
-    left: -360px;
+    left: 0px;
     z-index: -1;
 }
 
@@ -82,7 +82,7 @@ body{
     /* background: orange; */
     position: absolute;
     bottom: 172px;  
-    left: 100px; 
+    left: 400px; 
 }
 .bt1{
     width: 300px;
@@ -96,7 +96,7 @@ body{
     background: linear-gradient(to right, #ffffff56, transparent);
     position: relative;
     /* right: -40px; */
-    top: -10px;
+    top: 100px;
 }   
 
 .bt2{
@@ -111,7 +111,7 @@ body{
     background: linear-gradient(to right, #ffffff56, transparent);
     position: relative;
     right: -20px;
-    top: -10px;
+    top: 100px;
 }
 
 .bt3{
@@ -126,5 +126,5 @@ body{
     background: linear-gradient(to right, #ffffff56, transparent);
     position: relative;
     right: -40px;
-    top: -10px;
+    top: 100px;
 }
