@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--color-4);
+    background-color: #050a10;
 }
 
 .row_1{
@@ -46,8 +46,8 @@ body{
     top: 380px;
 }
 .row_1 button{
-    width: 300px;
-    height: 70px;
+    width: 250px;
+    height: 60px;
     color: var(--color-2);
     font-family: "Montserrat-Medium";
     font-size: 22px;
@@ -56,7 +56,7 @@ body{
     overflow: none;
     background-color: var(--color-3);
     position: absolute;
-    top: 500px;
+    top: 480px;
 }
 .row_2{
     width: 539px;
@@ -68,18 +68,63 @@ body{
 }
 
 .row_2 img{
-    width: 800px;
-    height: 720px;
+    width: 900px;
+    height: 760px;
     position: relative;
     top: 0px;
-    left: -60px;
+    left: -360px;
+    z-index: -1;
 }
 
 .row_3{
     width: 1112px;
     height: 100px;
-    background: orange;
+    /* background: orange; */
     position: absolute;
     bottom: 172px;  
     left: 100px; 
+}
+.bt1{
+    width: 300px;
+    height: 100px;
+    color: var(--color-2);
+    font-family: "Montserrat-SemiBold";
+    font-size: 22px;
+    border-radius: 50px;
+    border: none;
+    overflow: none;
+    background: linear-gradient(to right, #ffffff56, transparent);
+    position: relative;
+    /* right: -40px; */
+    top: -10px;
+}   
+
+.bt2{
+    width: 300px;
+    height: 100px;
+    color: var(--color-2);
+    font-family: "Montserrat-SemiBold";
+    font-size: 24px;
+    border-radius: 50px;
+    border: none;
+    overflow: none;
+    background: linear-gradient(to right, #ffffff56, transparent);
+    position: relative;
+    right: -20px;
+    top: -10px;
+}
+
+.bt3{
+    width: 300px;
+    height: 100px;
+    color: var(--color-2);
+    font-family: "Montserrat-SemiBold";
+    font-size: 22px;
+    border-radius: 50px;
+    border: none;
+    overflow: none;
+    background: linear-gradient(to right, #ffffff56, transparent);
+    position: relative;
+    right: -40px;
+    top: -10px;
 }
