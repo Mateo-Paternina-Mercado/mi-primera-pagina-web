@@ -69,9 +69,9 @@ body{
 
 .row_2 img{
     width: 900px;
-    height: 760px;
+    height: 780px;
     position: relative;
-    top: 0px;
+    top: -50px;
     left: -360px;
     z-index: -1;
 }
